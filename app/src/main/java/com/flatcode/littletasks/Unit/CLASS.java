@@ -1,0 +1,53 @@
+package com.flatcode.littletasks.Unit;
+
+import com.flatcode.littletasks.Activity.CategoriesActivity;
+import com.flatcode.littletasks.Activity.CategoryAddActivity;
+import com.flatcode.littletasks.Activity.CategoryEditActivity;
+import com.flatcode.littletasks.Activity.CategoryTasksActivity;
+import com.flatcode.littletasks.Activity.FavoritesActivity;
+import com.flatcode.littletasks.Activity.MainActivity;
+import com.flatcode.littletasks.Activity.ObjectAddActivity;
+import com.flatcode.littletasks.Activity.ObjectEditActivity;
+import com.flatcode.littletasks.Activity.ObjectsActivity;
+import com.flatcode.littletasks.Activity.ObjectsPlanActivity;
+import com.flatcode.littletasks.Activity.ObjectsToPlanActivity;
+import com.flatcode.littletasks.Activity.PlanAddActivity;
+import com.flatcode.littletasks.Activity.PlanEditActivity;
+import com.flatcode.littletasks.Activity.PlansActivity;
+import com.flatcode.littletasks.Activity.PrivacyPolicyActivity;
+import com.flatcode.littletasks.Activity.ProfileActivity;
+import com.flatcode.littletasks.Activity.ProfileEditActivity;
+import com.flatcode.littletasks.Activity.SplashActivity;
+import com.flatcode.littletasks.Activity.TaskAddActivity;
+import com.flatcode.littletasks.Activity.TaskEditActivity;
+import com.flatcode.littletasks.Auth.AuthActivity;
+import com.flatcode.littletasks.Auth.ForgetPasswordActivity;
+import com.flatcode.littletasks.Auth.LoginActivity;
+import com.flatcode.littletasks.Auth.RegisterActivity;
+
+public class CLASS {
+    public static Class MAIN = MainActivity.class;
+    public static Class SPLASH = SplashActivity.class;
+    public static Class AUTH = AuthActivity.class;
+    public static Class LOGIN = LoginActivity.class;
+    public static Class REGISTER = RegisterActivity.class;
+    public static Class CATEGORY_ADD = CategoryAddActivity.class;
+    public static Class OBJECTS_PLAN = ObjectsPlanActivity.class;
+    public static Class PLANS = PlansActivity.class;
+    public static Class CATEGORY_EDIT = CategoryEditActivity.class;
+    public static Class CATEGORY_TASKS = CategoryTasksActivity.class;
+    public static Class PLAN_ADD = PlanAddActivity.class;
+    public static Class PLAN_EDIT = PlanEditActivity.class;
+    public static Class OBJECT_ADD = ObjectAddActivity.class;
+    public static Class OBJECT_EDIT = ObjectEditActivity.class;
+    public static Class OBJECTS = ObjectsActivity.class;
+    public static Class TASK_ADD = TaskAddActivity.class;
+    public static Class TASK_EDIT = TaskEditActivity.class;
+    public static Class PROFILE = ProfileActivity.class;
+    public static Class PROFILE_EDIT = ProfileEditActivity.class;
+    public static Class FAVORITES = FavoritesActivity.class;
+    public static Class FORGET_PASSWORD = ForgetPasswordActivity.class;
+    public static Class CATEGORIES = CategoriesActivity.class;
+    public static Class PRIVACY_POLICY = PrivacyPolicyActivity.class;
+    public static Class OBJECT_TO_PLAN = ObjectsToPlanActivity.class;
+}

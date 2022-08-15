@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/drawable/button_image_add.xml" value="0.116" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/drawable/button_more.xml" value="0.116" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/drawable/button_number.xml" value="0.116" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/drawable/button_round.xml" value="0.116" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/drawable/ic_adds.xml" value="0.116" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/drawable/ic_category.xml" value="0.116" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/drawable/ic_more.xml" value="0.114" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/drawable/ic_note.xml" value="0.114" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/drawable/ic_object.xml" value="0.114" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/drawable/ic_star_half.xml" value="0.116" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/drawable/ic_true.xml" value="0.116" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/activity_auth.xml" value="0.1675929884566054" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/activity_category_add.xml" value="0.17" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/activity_favorites.xml" value="0.1675929884566054" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/activity_forget_password.xml" value="0.1675929884566054" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/activity_login.xml" value="0.1675929884566054" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/activity_main.xml" value="0.1675929884566054" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/activity_object_add.xml" value="0.16547066272688898" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/activity_object_edit.xml" value="0.13" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/activity_objects.xml" value="0.1675929884566054" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/activity_page.xml" value="0.1675929884566054" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/activity_page_linear.xml" value="0.1675929884566054" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/activity_page_staggerd.xml" value="0.1675929884566054" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/activity_page_staggered.xml" value="0.1675929884566054" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/activity_page_switch.xml" value="0.16" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/activity_plan_add.xml" value="0.16547066272688898" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/activity_plans.xml" value="0.1675929884566054" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/activity_privacy_policy.xml" value="0.1675929884566054" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/activity_profile.xml" value="0.18" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/activity_profile_edit.xml" value="0.16547066272688898" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/activity_register.xml" value="0.16547066272688898" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/activity_search.xml" value="0.1675929884566054" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/activity_splash.xml" value="0.1675929884566054" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/activity_task_add.xml" value="0.18" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/activity_task_edit.xml" value="0.13243243243243244" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/activity_task_test.xml" value="0.18" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/fragment_categories.xml" value="0.13243243243243244" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/fragment_home.xml" value="0.16" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/fragment_home_old.xml" value="0.16547066272688898" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/fragment_settings.xml" value="0.13243243243243244" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/item_add.xml" value="0.1675929884566054" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/item_add_object.xml" value="0.1675929884566054" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/item_categories.xml" value="0.21" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/item_categoriesssss.xml" value="0.1675929884566054" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/item_category.xml" value="0.2" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/item_new_plan.xml" value="0.16547066272688898" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/item_object.xml" value="0.1675929884566054" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/item_plan.xml" value="0.22" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/item_setting.xml" value="0.1675929884566054" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/item_switch_filter.xml" value="0.1675929884566054" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/item_task.xml" value="0.25" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/item_tasks.xml" value="0.2" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/toolbar_color_event.xml" value="0.1675929884566054" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/toolbar_main.xml" value="0.1675929884566054" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/toolbar_page.xml" value="0.1675929884566054" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/toolbar_page_event.xml" value="0.17" />
+        <entry key="..\:/MyProject/Java/Flat Tasks/Little Tasks/app/src/main/res/layout/toolbar_search.xml" value="0.1675929884566054" />
+        <entry key="..\:/MyProjects/Java/Little Tasks/Little Tasks/app/src/main/res/drawable/ic_search.xml" value="0.1225" />
+        <entry key="..\:/MyProjects/Java/Little Tasks/Little Tasks/app/src/main/res/layout/activity_auth.xml" value="0.19537037037037036" />
+        <entry key="..\:/MyProjects/Java/Little Tasks/Little Tasks/app/src/main/res/layout/activity_category_add.xml" value="0.18" />
+        <entry key="..\:/MyProjects/Java/Little Tasks/Little Tasks/app/src/main/res/layout/activity_forget_password.xml" value="0.20416666666666666" />
+        <entry key="..\:/MyProjects/Java/Little Tasks/Little Tasks/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/MyProjects/Java/Little Tasks/Little Tasks/app/src/main/res/layout/activity_main.xml" value="0.1675929884566054" />
+        <entry key="..\:/MyProjects/Java/Little Tasks/Little Tasks/app/src/main/res/layout/activity_page_linear.xml" value="0.1675929884566054" />
+        <entry key="..\:/MyProjects/Java/Little Tasks/Little Tasks/app/src/main/res/layout/activity_plan_add.xml" value="0.1675929884566054" />
+        <entry key="..\:/MyProjects/Java/Little Tasks/Little Tasks/app/src/main/res/layout/activity_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/MyProjects/Java/Little Tasks/Little Tasks/app/src/main/res/layout/activity_register.xml" value="0.19537037037037036" />
+        <entry key="..\:/MyProjects/Java/Little Tasks/Little Tasks/app/src/main/res/layout/fragment_categories.xml" value="0.1675929884566054" />
+        <entry key="..\:/MyProjects/Java/Little Tasks/Little Tasks/app/src/main/res/layout/fragment_home.xml" value="0.16547066272688898" />
+        <entry key="..\:/MyProjects/Java/Little Tasks/Little Tasks/app/src/main/res/layout/fragment_home_old.xml" value="0.1675929884566054" />
+        <entry key="..\:/MyProjects/Java/Little Tasks/Little Tasks/app/src/main/res/layout/fragment_settings.xml" value="0.1675929884566054" />
+        <entry key="..\:/MyProjects/Java/Little Tasks/Little Tasks/app/src/main/res/layout/item_categories.xml" value="0.1675929884566054" />
+        <entry key="..\:/MyProjects/Java/Little Tasks/Little Tasks/app/src/main/res/layout/item_category.xml" value="0.1675929884566054" />
+        <entry key="..\:/MyProjects/Java/Little Tasks/Little Tasks/app/src/main/res/layout/item_setting.xml" value="0.1675929884566054" />
+        <entry key="..\:/MyProjects/Java/Little Tasks/Little Tasks/app/src/main/res/layout/item_switch_filter.xml" value="0.20416666666666666" />
+        <entry key="..\:/MyProjects/Java/Little Tasks/Little Tasks/app/src/main/res/layout/toolbar_page_event.xml" value="0.1675929884566054" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
