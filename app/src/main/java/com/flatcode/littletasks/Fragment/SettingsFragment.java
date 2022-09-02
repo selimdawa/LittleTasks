@@ -51,10 +51,6 @@ public class SettingsFragment extends Fragment {
         binding.toolbar.item.setOnClickListener(v ->
                 VOID.IntentExtra(getContext(), CLASS.PROFILE, DATA.PROFILE_ID, DATA.FirebaseUserUid));
 
-        loadUserInfo();
-        getPoints();
-        nrItems();
-
         return binding.getRoot();
     }
 
@@ -65,6 +61,7 @@ public class SettingsFragment extends Fragment {
         reference.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                C = 0;
                 for (DataSnapshot data : dataSnapshot.getChildren()) {
                     Category item = data.getValue(Category.class);
                     assert item != null;
@@ -80,6 +77,7 @@ public class SettingsFragment extends Fragment {
                 reference.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                        P = 0;
                         for (DataSnapshot data : dataSnapshot.getChildren()) {
                             Plan item = data.getValue(Plan.class);
                             assert item != null;
@@ -102,6 +100,7 @@ public class SettingsFragment extends Fragment {
                 reference.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                        O = 0;
                         for (DataSnapshot data : dataSnapshot.getChildren()) {
                             OBJECT item = data.getValue(OBJECT.class);
                             assert item != null;
@@ -124,6 +123,7 @@ public class SettingsFragment extends Fragment {
                 reference.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                        F = O;
                         F = (int) dataSnapshot.getChildrenCount();
                         loadSettings(C, P, O, F);
                     }
@@ -210,5 +210,13 @@ public class SettingsFragment extends Fragment {
 
             }
         });
+    }
+
+    @Override
+    public void onResume() {
+        loadUserInfo();
+        getPoints();
+        nrItems();
+        super.onResume();
     }
 }

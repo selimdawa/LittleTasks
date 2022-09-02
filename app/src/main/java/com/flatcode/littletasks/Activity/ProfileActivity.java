@@ -41,14 +41,16 @@ public class ProfileActivity extends AppCompatActivity {
         Intent intent = getIntent();
         profileId = intent.getStringExtra(DATA.PROFILE_ID);
 
+        binding.edit.setOnClickListener(v -> VOID.Intent(context, ProfileEditActivity.class));
+        binding.back.setOnClickListener(v -> onBackPressed());
+    }
+
+    private void init() {
         loadUserInfo();
         getNrItems(DATA.TASKS, binding.numberTasks);
         getNrItems(DATA.PLANS, binding.numberPlans);
         getNrItems(DATA.OBJECTS, binding.numberObjects);
         getNrItems(DATA.CATEGORIES, binding.numberCategories);
-
-        binding.edit.setOnClickListener(v -> VOID.Intent(context, ProfileEditActivity.class));
-        binding.back.setOnClickListener(v -> onBackPressed());
     }
 
     private void loadUserInfo() {
@@ -92,5 +94,17 @@ public class ProfileActivity extends AppCompatActivity {
 
             }
         });
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        init();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        init();
     }
 }

@@ -82,8 +82,6 @@ public class ObjectsActivity extends AppCompatActivity {
         list = new ArrayList<>();
         adapter = new ObjectAdapter(context, list);
         binding.recyclerView.setAdapter(adapter);
-
-        loadInfo();
     }
 
     private void loadInfo() {
@@ -125,5 +123,17 @@ public class ObjectsActivity extends AppCompatActivity {
             binding.toolbar.textSearch.setText(DATA.EMPTY);
         } else
             super.onBackPressed();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        loadInfo();
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+      loadInfo();
     }
 }

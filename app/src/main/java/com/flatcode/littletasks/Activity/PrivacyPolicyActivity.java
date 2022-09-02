@@ -36,7 +36,6 @@ public class PrivacyPolicyActivity extends AppCompatActivity {
         binding.toolbar.search.setVisibility(View.GONE);
 
         VOID.Logo(context, binding.logo);
-        privacyPolicy();
     }
 
     private void privacyPolicy() {
@@ -53,5 +52,17 @@ public class PrivacyPolicyActivity extends AppCompatActivity {
 
             }
         });
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        privacyPolicy();
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        privacyPolicy();
     }
 }

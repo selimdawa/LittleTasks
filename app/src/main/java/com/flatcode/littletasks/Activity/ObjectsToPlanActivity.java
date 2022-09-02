@@ -82,8 +82,6 @@ public class ObjectsToPlanActivity extends AppCompatActivity {
         list = new ArrayList<>();
         adapter = new ObjectOptionAdapter(context, list, id);
         binding.recyclerView.setAdapter(adapter);
-
-        getItems();
     }
 
     private void getItems() {
@@ -125,5 +123,16 @@ public class ObjectsToPlanActivity extends AppCompatActivity {
             binding.toolbar.textSearch.setText(DATA.EMPTY);
         } else
             super.onBackPressed();
+    }
+    @Override
+    protected void onResume() {
+        super.onResume();
+        getItems();
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        getItems();
     }
 }

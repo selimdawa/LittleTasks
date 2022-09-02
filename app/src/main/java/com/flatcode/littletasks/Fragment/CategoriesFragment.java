@@ -41,7 +41,6 @@ public class CategoriesFragment extends Fragment {
         adapter = new CategoryMainAdapter(getContext(), list);
         binding.recyclerView.setAdapter(adapter);
 
-        loadItems();
         return binding.getRoot();
     }
 
@@ -73,5 +72,11 @@ public class CategoriesFragment extends Fragment {
 
             }
         });
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        loadItems();
     }
 }

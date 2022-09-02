@@ -106,9 +106,6 @@ public class CategoryTasksActivity extends AppCompatActivity {
         binding.filter.add.setOnClickListener(v -> UpToDown(binding.filter.a3, DATA.TIMESTAMP));
         binding.filter.start.setOnClickListener(v -> UpToDown(binding.filter.a4, DATA.START));
         binding.filter.end.setOnClickListener(v -> UpToDown(binding.filter.a5, DATA.END));
-
-        getData(DATA.TIMESTAMP, binding.recyclerView, binding.recyclerViewReverse);
-        getPoints();
     }
 
     private void UpToDown(ImageView item, String Type) {
@@ -202,5 +199,19 @@ public class CategoryTasksActivity extends AppCompatActivity {
             binding.toolbar.textSearch.setText(DATA.EMPTY);
         } else
             super.onBackPressed();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        getData(DATA.TIMESTAMP, binding.recyclerView, binding.recyclerViewReverse);
+        getPoints();
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        getData(DATA.TIMESTAMP, binding.recyclerView, binding.recyclerViewReverse);
+        getPoints();
     }
 }
