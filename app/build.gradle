@@ -68,7 +68,7 @@ dependencies {
     annotationProcessor 'com.github.bumptech.glide:compiler:4.14.2'    //Glide compiler
     implementation 'com.balysv:material-ripple:1.0.2'                  //Ripple effect
     api 'com.theartofdev.edmodo:android-image-cropper:2.8.0'           //Image Crop
-    implementation 'jp.wasabeef:glide-transformations:4.0.0'           //Image Blur
+    implementation 'jp.wasabeef:glide-transformations:4.3.0'           //Image Blur
     //Bottom Navigation
     implementation 'com.etebarian:meow-bottom-navigation-java:1.2.0'   //Meow Bottom Navigation
 }
